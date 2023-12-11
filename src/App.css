@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+li{
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complited{
+  background-color: aquamarine;
+}
